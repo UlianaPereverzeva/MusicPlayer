@@ -83,24 +83,43 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WU3-l1-qCJ">
+                                <rect key="frame" x="20" y="599" width="374" height="148"/>
+                                <connections>
+                                    <segue destination="Md6-BX-KSb" kind="embed" id="H8S-qP-n6s"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pUU-WH-EIN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6lz-hB-S3r" firstAttribute="top" secondItem="5FV-SC-ewz" secondAttribute="bottom" constant="10" id="4Ll-qG-YQY"/>
+                            <constraint firstAttribute="bottom" secondItem="WU3-l1-qCJ" secondAttribute="bottom" constant="149" id="Dsx-kK-GMm"/>
+                            <constraint firstItem="pUU-WH-EIN" firstAttribute="trailing" secondItem="WU3-l1-qCJ" secondAttribute="trailing" constant="20" id="FiX-vz-5X8"/>
                             <constraint firstItem="5FV-SC-ewz" firstAttribute="top" secondItem="pUU-WH-EIN" secondAttribute="top" id="NKA-l6-R9g"/>
+                            <constraint firstItem="WU3-l1-qCJ" firstAttribute="leading" secondItem="pUU-WH-EIN" secondAttribute="leading" constant="20" id="RkT-lA-Ram"/>
                             <constraint firstItem="pUU-WH-EIN" firstAttribute="trailing" secondItem="5FV-SC-ewz" secondAttribute="trailing" id="Szj-8b-S9x"/>
+                            <constraint firstItem="WU3-l1-qCJ" firstAttribute="top" secondItem="6lz-hB-S3r" secondAttribute="bottom" constant="100" id="lDX-fZ-rQF"/>
                             <constraint firstItem="6lz-hB-S3r" firstAttribute="centerX" secondItem="pUU-WH-EIN" secondAttribute="centerX" id="ndP-Q2-zB2"/>
                             <constraint firstItem="5FV-SC-ewz" firstAttribute="leading" secondItem="pUU-WH-EIN" secondAttribute="leading" id="t8B-KR-NfN"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="containerView" destination="WU3-l1-qCJ" id="ZZT-yO-5CL"/>
                         <outlet property="imageOfSong" destination="5FV-SC-ewz" id="uwQ-ge-XFw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ie4-rW-BcE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1479.7101449275362" y="112.5"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="ykR-4t-6bf">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="Md6-BX-KSb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTg-xg-EPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2187" y="120"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="v1X-eJ-MfL">

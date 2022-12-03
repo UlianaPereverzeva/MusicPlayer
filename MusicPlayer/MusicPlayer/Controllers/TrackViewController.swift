@@ -6,15 +6,23 @@
 //
 
 import UIKit
+import AVKit
+
 
 class TrackViewController: UIViewController {
     
+    var track: Track?
+    var playerViewController: AVPlayerViewController?
+    
     @IBOutlet weak var imageOfSong: UIImageView!
+    @IBOutlet weak var containerView: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.title = track?.name
+        imageOfSong.image = UIImage(named: track?.name ?? "")
     }
     
     @IBAction func playButton(_ sender: UIButton) {

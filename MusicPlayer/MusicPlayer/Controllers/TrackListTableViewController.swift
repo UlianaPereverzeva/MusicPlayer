@@ -45,10 +45,13 @@ class TrackListTableViewController: UITableViewController {
         100
     }
     
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        guard let vc = storyboard.instantiateViewController(withIdentifier: "TrackViewController") as? TrackViewController else { return }
-//    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        guard let indexPath = tableView.indexPathForSelectedRow,
+            let vc = storyboard.instantiateViewController(withIdentifier: "TrackViewController") as? TrackViewController else { return }
+        vc.track = DataService.trackList[indexPath.row]
+    }
 
      //Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
