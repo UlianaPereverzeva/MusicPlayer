@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		85DDFD6D293B4ED50017D662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD6C293B4ED50017D662 /* AppDelegate.swift */; };
 		85DDFD6F293B4ED50017D662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD6E293B4ED50017D662 /* SceneDelegate.swift */; };
-		85DDFD71293B4ED50017D662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD70293B4ED50017D662 /* ViewController.swift */; };
 		85DDFD74293B4ED50017D662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD72293B4ED50017D662 /* Main.storyboard */; };
 		85DDFD76293B4ED70017D662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD75293B4ED70017D662 /* Assets.xcassets */; };
 		85DDFD79293B4ED70017D662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD77293B4ED70017D662 /* LaunchScreen.storyboard */; };
+		85DDFD88293B582F0017D662 /* Москва Любит (Sefon.Pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD83293B582E0017D662 /* Москва Любит (Sefon.Pro).mp3 */; };
+		85DDFD89293B582F0017D662 /* Ламбада (Sefon.me).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD84293B582E0017D662 /* Ламбада (Sefon.me).mp3 */; };
+		85DDFD8A293B582F0017D662 /* Скандал (Sefon.me).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD85293B582F0017D662 /* Скандал (Sefon.me).mp3 */; };
+		85DDFD8B293B582F0017D662 /* Чистый (OST Псих) (Sefon.Pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD86293B582F0017D662 /* Чистый (OST Псих) (Sefon.Pro).mp3 */; };
+		85DDFD8C293B582F0017D662 /* Талия (Sefon.Pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85DDFD87293B582F0017D662 /* Талия (Sefon.Pro).mp3 */; };
+		85DDFD90293B5ED20017D662 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD8F293B5ED20017D662 /* DataSource.swift */; };
+		85DDFD92293B5F400017D662 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD91293B5F400017D662 /* Track.swift */; };
+		85DDFD95293B62CE0017D662 /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD94293B62CE0017D662 /* TrackListTableViewController.swift */; };
+		85DDFD97293B64D10017D662 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDFD96293B64D10017D662 /* TrackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85DDFD69293B4ED50017D662 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DDFD6C293B4ED50017D662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DDFD6E293B4ED50017D662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85DDFD70293B4ED50017D662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85DDFD73293B4ED50017D662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85DDFD75293B4ED70017D662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85DDFD78293B4ED70017D662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DDFD7A293B4ED70017D662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DDFD83293B582E0017D662 /* Москва Любит (Sefon.Pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Москва Любит (Sefon.Pro).mp3"; sourceTree = "<group>"; };
+		85DDFD84293B582E0017D662 /* Ламбада (Sefon.me).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ламбада (Sefon.me).mp3"; sourceTree = "<group>"; };
+		85DDFD85293B582F0017D662 /* Скандал (Sefon.me).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Скандал (Sefon.me).mp3"; sourceTree = "<group>"; };
+		85DDFD86293B582F0017D662 /* Чистый (OST Псих) (Sefon.Pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Чистый (OST Псих) (Sefon.Pro).mp3"; sourceTree = "<group>"; };
+		85DDFD87293B582F0017D662 /* Талия (Sefon.Pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Талия (Sefon.Pro).mp3"; sourceTree = "<group>"; };
+		85DDFD8F293B5ED20017D662 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		85DDFD91293B5F400017D662 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		85DDFD94293B62CE0017D662 /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
+		85DDFD96293B64D10017D662 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,71 @@
 		85DDFD6B293B4ED50017D662 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				85DDFD6C293B4ED50017D662 /* AppDelegate.swift */,
-				85DDFD6E293B4ED50017D662 /* SceneDelegate.swift */,
-				85DDFD70293B4ED50017D662 /* ViewController.swift */,
-				85DDFD72293B4ED50017D662 /* Main.storyboard */,
+				85DDFD8D293B5E110017D662 /* Models */,
+				85DDFD81293B56530017D662 /* Views */,
+				85DDFD93293B61970017D662 /* Controllers */,
+				85DDFD8E293B5E7F0017D662 /* DataServices */,
+				85DDFD82293B57920017D662 /* Tracks */,
+				85DDFD80293B52350017D662 /* Deletgates */,
 				85DDFD75293B4ED70017D662 /* Assets.xcassets */,
-				85DDFD77293B4ED70017D662 /* LaunchScreen.storyboard */,
 				85DDFD7A293B4ED70017D662 /* Info.plist */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		85DDFD80293B52350017D662 /* Deletgates */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFD6C293B4ED50017D662 /* AppDelegate.swift */,
+				85DDFD6E293B4ED50017D662 /* SceneDelegate.swift */,
+			);
+			path = Deletgates;
+			sourceTree = "<group>";
+		};
+		85DDFD81293B56530017D662 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFD72293B4ED50017D662 /* Main.storyboard */,
+				85DDFD77293B4ED70017D662 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85DDFD82293B57920017D662 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFD84293B582E0017D662 /* Ламбада (Sefon.me).mp3 */,
+				85DDFD83293B582E0017D662 /* Москва Любит (Sefon.Pro).mp3 */,
+				85DDFD85293B582F0017D662 /* Скандал (Sefon.me).mp3 */,
+				85DDFD87293B582F0017D662 /* Талия (Sefon.Pro).mp3 */,
+				85DDFD86293B582F0017D662 /* Чистый (OST Псих) (Sefon.Pro).mp3 */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
+		85DDFD8D293B5E110017D662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFD91293B5F400017D662 /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85DDFD8E293B5E7F0017D662 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFD8F293B5ED20017D662 /* DataSource.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		85DDFD93293B61970017D662 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85DDFD94293B62CE0017D662 /* TrackListTableViewController.swift */,
+				85DDFD96293B64D10017D662 /* TrackViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +197,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DDFD8B293B582F0017D662 /* Чистый (OST Псих) (Sefon.Pro).mp3 in Resources */,
+				85DDFD88293B582F0017D662 /* Москва Любит (Sefon.Pro).mp3 in Resources */,
+				85DDFD8C293B582F0017D662 /* Талия (Sefon.Pro).mp3 in Resources */,
 				85DDFD79293B4ED70017D662 /* LaunchScreen.storyboard in Resources */,
+				85DDFD89293B582F0017D662 /* Ламбада (Sefon.me).mp3 in Resources */,
+				85DDFD8A293B582F0017D662 /* Скандал (Sefon.me).mp3 in Resources */,
 				85DDFD76293B4ED70017D662 /* Assets.xcassets in Resources */,
 				85DDFD74293B4ED50017D662 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DDFD71293B4ED50017D662 /* ViewController.swift in Sources */,
+				85DDFD92293B5F400017D662 /* Track.swift in Sources */,
+				85DDFD97293B64D10017D662 /* TrackViewController.swift in Sources */,
 				85DDFD6D293B4ED50017D662 /* AppDelegate.swift in Sources */,
+				85DDFD90293B5ED20017D662 /* DataSource.swift in Sources */,
 				85DDFD6F293B4ED50017D662 /* SceneDelegate.swift in Sources */,
+				85DDFD95293B62CE0017D662 /* TrackListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
